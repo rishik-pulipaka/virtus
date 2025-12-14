@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="pt-10">
       <div className="content-left">
         <h1 className="text-4xl md:text-5xl font-light tracking-tight mb-4">
-          Virtus Verbum
+          Virtus
         </h1>
 
         <p className="text-lg leading-relaxed max-w-5xl mb-12">

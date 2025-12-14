@@ -1,19 +1,17 @@
-import "./globals.css";
 import Navbar from "./components/Navbar";
+import "./globals.css";
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html>
-      <body className="bg-white text-black flex">
-        
-        {/* Navbar Component */}
+    <html lang="en">
+      <body className="flex bg-white text-black">
         <Navbar />
 
-        {/* Page Content */}
+        {/* IMPORTANT: NO padding, NO centering, NO max-width */}
         <main className="flex-1 p-8">
           {children}
         </main>
