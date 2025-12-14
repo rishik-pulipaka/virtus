@@ -11,3 +11,13 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+.content-left {
+  padding-left: 1.5rem; /* px-6 */
+}
+
+@media (min-width: 1280px) {
+  .content-left {
+    padding-left: calc(224px + 3rem);
+  }
+}

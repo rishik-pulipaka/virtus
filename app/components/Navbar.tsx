@@ -28,11 +28,6 @@ export default function Navbar() {
             ))}
           </nav>
         </div>
-
-        {/* Bottom link stays separate */}
-        <Link href="/faq" className="text-xs text-blue-600 hover:underline">
-          FAQ/CONTACT
-        </Link>
       </aside>
 
       {/* === MOBILE/TABLET TOP NAV (< xl) === */}
